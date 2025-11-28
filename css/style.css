@@ -1,0 +1,68 @@
+body {
+    background-image: url('../assets/wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat; /* early 2000s loved repeating patterns */
+    background-size: auto;
+    margin: 0;
+    width: 100%;
+    font-family: "Comic Sans MS", "Arial", sans-serif; /* signature 2000s font */
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 0;
+    color: gold;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px purple;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 31px;
+    color: lime;
+    text-shadow: 1px 1px 3px black;
+    margin: 15px 0;
+}
+
+p {
+    margin: 0px;
+    font-size: 18px;
+    color: cyan;
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px black;
+}
+
+li {
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.section {
+    margin: 18px auto;
+    padding: 18px;
+    width: 70%;
+    border: 3px dashed hotpink; /* borders were everything */
+    border-radius: 0; /* optional—rounded borders were kinda rare then */
+    background: linear-gradient(135deg, rgba(255,255,255,0.5), rgba(255,255,0,0.5));
+    box-shadow: inset 5px 5px 15px black;
+}
+
+marquee {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1.2; /* reduces extra height */
+    font-size: 28px;
+    color: cyan;
+    text-shadow: 1px 1px 3px black;
+    font-weight: bold;
+}
+
+@keyframes blink-animation {
+    to { visibility: hidden; }
+}
